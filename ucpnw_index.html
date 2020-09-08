@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css"/>
+  <link rel="shortcut icon" href="tiny_sqatch_logo.png">
+  <title>A Totally Reliable Website</title>
+</head>
+
+<body>
+  
+  <div class="header"><a href="http://css1.seattleu.edu/~carlosm/">
+    <div><img src="sasquatch_logo.png" alt="Sasquatch and Tree Logo"></div>
+    <h1 id = "headTitle">Uncommon Creatures of the Pacific Northwest</h1></a>
+  </div>
+
+<div id="nav">
+<ul>
+  <li><a class="active" href="http://css1.seattleu.edu/~carlosm/">Home</a></li>
+  <li><a href="creatures.html">Creatures</a></li>
+  <li><a href="pnw.html">The Pacific Northwest</a></li>
+  <li><a href="contributors.html">Contributors</a></li>
+  <li><a href="aboutsite.html">About Site</a></li>
+</ul>
+</div>
+
+  <h2 id = "namePar">Welcome to Uncommon Creatures!</h2>
+  <div class="homePics">   
+	<img alt="Foggy Trees & Sasquatch" src="http://css1.seattleu.edu/~carlosm/pnw_images/img_2.jpg" 
+            style="height: 300px" id="imgClickAndChange" onclick="changeImage()" />
+	<img alt="Close Up Trees & Tree Octopus" style="height: 300px" src="http://css1.seattleu.edu/~carlosm//images/octo_trees.jpg" 
+		id="imgClickAndChange2" onclick="changeImage2()" /> 
+	<img alt="Boat on Water with Mountain & Willatuk Serpent & Beaver" style="height: 300px" src="http://css1.seattleu.edu/~carlosm//images/boat_water.jpg"
+		id="imgClickAndChange3" onclick="changeImage3()"  /> 
+  </div>
+  <p id = "websitePar">We here at Uncommon Creatures seek to provide information about some of the uncommon creatures and critters 
+	that live in the Pacific Northwest. You can learn about creatures such as the tree octopus, avian polar bears, Sasquatch, 
+	the St. Helens dragon, beavers, and Willatuk the Sea Serpent. We seek to educate what these creatures are, 
+	where these creatures live, how much they weigh, what they eat, and other miscellaneous facts about them!  </p>
+
+<script>
+    function changeImage() {
+        if (document.getElementById("imgClickAndChange").src == "http://css1.seattleu.edu/~carlosm/pnw_images/img_2.jpg") 
+        {
+            document.getElementById("imgClickAndChange").src = "http://css1.seattleu.edu/~carlosm/images/sasquatch_in_nature.png";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange").src = "http://css1.seattleu.edu/~carlosm/pnw_images/img_2.jpg";
+        }
+    }
+    function changeImage2() {
+        if (document.getElementById("imgClickAndChange2").src == "http://css1.seattleu.edu/~carlosm/images/octo_trees.jpg") 
+        {
+            document.getElementById("imgClickAndChange2").src = "http://css1.seattleu.edu/~carlosm/images/octopus.png";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange2").src = "http://css1.seattleu.edu/~carlosm/images/octo_trees.jpg";
+        }
+    }
+    function changeImage3() {
+        if (document.getElementById("imgClickAndChange3").src == "http://css1.seattleu.edu/~carlosm/images/boat_water.jpg") 
+        {
+            document.getElementById("imgClickAndChange3").src = "http://css1.seattleu.edu/~carlosm/images/beav_ness.png";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange3").src = "http://css1.seattleu.edu/~carlosm/images/boat_water.jpg";
+        }
+    }
+
+</script>
+
+</body>
+</html>
