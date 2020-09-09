@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css"/>
+  <link rel="stylesheet" href="gallery_stylesheet.css"/>
+  <link rel="shortcut icon" href="tiny_sqatch_logo.png">
+  <title>A Totally Reliable Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  
+  <div class="header"><a href="http://css1.seattleu.edu/~carlosm/">
+    <div><img src="sasquatch_logo.png" alt="Sasquatch and Tree Logo"></div>
+    <h1 id = "headTitle">Uncommon Creatures of the Pacific Northwest</h1></a>
+  </div>
+
+
+<div id="nav">
+<ul>
+  <li><a href="http://css1.seattleu.edu/~carlosm/">Home</a></li>
+  <li><a href="creatures.html">Creatures</a></li>
+  <li><a class="active" href="pnw.html">The Pacific Northwest</a></li>
+  <li><a href="contributors.html">Contributors</a></li>
+  <li><a href="aboutsite.html">About Site</a></li>
+</ul>
+</div>
+
+  <h2 id = "pageTitlePNW">The Pacific Northwest</h2>
+  <p id = "namePar">The Pacific Northwest is a region in North America in the northwest that is loosely bounded by the 
+	Pacific Ocean in the west and by the Cascade Mountain range in the east. The region is sometimes
+	called Cascadia. The biggest cities within the Pacific Northwest include Seattle in Washington, Portland in Oregon, and 
+	Vancouver in British Columbia. The Pacific Northwest has some of the most lush and extensive forests due to the mild summers
+	and the large amount of rain that the region receives. Many types of creatures and critters live in this region and are 
+	still being discovered to this day. </p>
+
+  <div class="galleryPar">
+    <div class="gallery">
+	  <div class="row">
+	  <div class="column">
+	    <img src="pnw_images/img_1.jpg" alt="Trees in the Sky" style="width:100%" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img src="pnw_images/img_5.jpg" alt="Bridge Over Water" style="width:100%" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img src="pnw_images/img_3.jpg" alt="Road with Trees" style="width:100%" onclick="myFunction(this);">
+	  </div>
+	  <div class="column">
+	    <img src="pnw_images/img_4.jpg" alt="Mossy Trees in Forest" style="width:100%" onclick="myFunction(this);">
+	  </div>
+	</div>
+
+	<div class="container">
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+	  <img id="expandedImg" style="width:100%" src="#" alt="Expanded Image">
+	  <div id="imgtext"></div>
+	</div>
+    </div>
+  </div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+  
+
+</body>
+</html>
