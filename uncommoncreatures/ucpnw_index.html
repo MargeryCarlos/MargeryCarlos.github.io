@@ -29,8 +29,8 @@
   <div class="homePics">   
 	<img alt="Foggy Trees & Sasquatch" src="pnw_images/img_2.jpg" 
             style="height: 300px" id="imgClickAndChange" onclick="changeImage()" />
-	<img alt="Close Up Trees & Tree Octopus" style="height: 300px" src="images/octo_trees.jpg" 
-		id="imgClickAndChange2" onclick="changeImage2()" /> 
+	<img alt="Close Up Trees & Tree Octopus" style="height: 300px" src="images/octo_trees.jpg" id="toggleImg2" 
+	       onclick="toggleImage('toggleImg2', 'images/octo_trees.jpg', 'images/octopus.png');" />
 	<img alt="Boat on Water with Mountain & Willatuk Serpent & Beaver" style="height: 300px" src="images/boat_water.jpg"
 		id="imgClickAndChange3" onclick="changeImage3()"  /> 
   </div>
@@ -40,6 +40,10 @@
 	where these creatures live, how much they weigh, what they eat, and other miscellaneous facts about them!  </p>
 
 <script>
+	function toggleImage(id, img1, img2) {
+		var imgElement = document.getElementById(id);
+		imgElement.src = (imgElement.src === img1)? img2 : img1;
+	}
     function changeImage() {
         if (document.getElementById("imgClickAndChange").src == "pnw_images/img_2.jpg") 
         {
