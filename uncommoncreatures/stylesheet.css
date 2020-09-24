@@ -106,21 +106,19 @@ p {
 
 /* Home Page Images */
 .homePics {
-  text-align: center;
-  font-size: 20px;
-  height: 300px;
-  margin-bottom: 40px;
-  display: block;
+    text-align: center;
+}
+
+.homeColumn {
+    display: inline-block;
+    padding: 10px;
 }
 
 .homePics img {
-  padding: 10px;
-  /*float: center;*/
-  height: 300px;
-}
-
-.homePics img {
-  cursor: pointer;
+    /*padding: 10px;
+    float: center;
+    cursor: pointer;*/
+    height: 300px;
 }
 
 /* Nav bar: */

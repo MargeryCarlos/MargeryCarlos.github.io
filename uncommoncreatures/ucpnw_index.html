@@ -27,12 +27,20 @@
 
   <h2 id = "namePar">Welcome to Uncommon Creatures!</h2>
   <div class="homePics">   
-	<img alt="Foggy Trees & Sasquatch" src="pnw_images/img_2.jpg" 
-            style="height: 300px" id="imgClickAndChange" onclick="changeImage()" />
-	<img alt="Close Up Trees & Tree Octopus" style="height: 300px" src="images/octo_trees.jpg" id="toggleImg2" 
-	       onclick="toggleImage('toggleImg2', 'images/octo_trees.jpg', 'images/octopus.png');" />
-	<img alt="Boat on Water with Mountain & Willatuk Serpent & Beaver" style="height: 300px" src="images/boat_water.jpg"
-		id="imgClickAndChange3" onclick="changeImage3()"  /> 
+      <div class="homeRow">
+          <div class="homeColumn">
+              <img alt="Foggy Trees & Sasquatch" src="pnw_images/img_2.jpg"
+                   id="imgClickAndChange" onclick="changeImage()" />
+          </div>
+          <div class="homeColumn">
+              <img alt="Close Up Trees & Tree Octopus" src="images/octo_trees.jpg" id="toggleImg2"
+                   onclick="toggleImage('toggleImg2', 'images/octo_trees.jpg', 'images/octopus.png');" />
+          </div>
+          <div class="homeColumn">
+              <img alt="Boat on Water with Mountain & Willatuk Serpent & Beaver" src="images/boat_water.jpg"
+                   id="imgClickAndChange3" onclick="changeImage3()" />
+          </div>
+      </div>
   </div>
   <p id = "websitePar">We here at Uncommon Creatures seek to provide information about some of the uncommon creatures and critters 
 	that live in the Pacific Northwest. You can learn about creatures such as the tree octopus, avian polar bears, Sasquatch, 
