@@ -96,6 +96,14 @@ p {
   height: 300px;
 }
 
+/* Contributors Page Image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 /* Home Page Images */
 .homePics {
   text-align: center;
