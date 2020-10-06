@@ -8,7 +8,7 @@ Uncommon Creatures of the Pacific Northwest is a simple site I first created fro
 
 ## Where can I see the website?
 
-You can visit the site by going [here](https://margerycarlos.github.io/uncommoncreatures/ucpnw_index.html). 
+You can visit the site by going [here](https://margerycarlos.github.io/uncommoncreatures/index.html). 
 
 ## How can I use this repo?
 
