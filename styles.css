@@ -22,3 +22,30 @@ p2 {
   margin: 75px auto;
   font: 25px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+/* Nav Bar: */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #165a51; /*darkish teal*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Courier New, Courier, monospace;
+}
+
+li a:hover {
+  background-color: #1e8d83; /*teal*/
+}
