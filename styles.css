@@ -30,7 +30,7 @@ h1 {
 p {
   display: block;
   width: 400px;
-  margin: 50px auto;
+  margin: 30px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
@@ -39,6 +39,21 @@ p2 {
   width: 400px;
   margin: 75px auto;
   font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+p3 {
+    display: block;
+    width: 400px;
+    margin: 30px auto;
+    font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    font-style: italic;
+}
+
+.single-indent {
+    text-indent: 80px
+}
+.double-indent {
+    text-indent: 160px;
 }
 
 /* Nav Bar: */
