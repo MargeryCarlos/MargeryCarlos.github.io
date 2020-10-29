@@ -4,7 +4,7 @@ Welcome to my GitHub website repository!
 
 ## What is this?
 
-This is my personal GitHub site repository where I might create myself a portfolio and will work to get my Uncommon Creatures website up and running. You can visit the website I'm working on with this repository by going [here](https://margerycarlos.github.io/). 
+This is my personal GitHub site repository where I am creating myself a portfolio and hosting my Uncommon Creatures website. You can visit the website I'm working on with this repository by going [here](https://margerycarlos.github.io/). You can find more info about Uncommon Creatures in its own directory and readme. For now, Uncommon Creatures is being hosted under the same domain as my portfolio website. Hopefully in the future I can buy a custom URL for it. 
 
 ## Who is Margery?
 
