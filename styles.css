@@ -99,3 +99,8 @@ li a:hover {
     display: table;
     clear: both;
 }
+
+@media screen and (max-width: 1200px) {
+    .column {
+        width: 100%;
+    }
