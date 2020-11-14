@@ -28,7 +28,7 @@ h1 {
     font-weight: bolder;
 }
 
-p { /* previously p */
+h2 { /* previously p */
   display: block;
   width: 400px;
   margin: 30px auto;
