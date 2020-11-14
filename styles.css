@@ -35,14 +35,7 @@ h2 { /* previously p */
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-p2 { /* previously p2 */
-  display: block;
-  width: 400px;
-  margin: 30px auto;
-  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
-h3 {  /* previously p3 */
+h3 { /* previously p3 */
     display: block;
     width: 400px;
     margin: 30px auto;
@@ -50,6 +43,14 @@ h3 {  /* previously p3 */
     font-style: italic;
 }
 
+p { /* previously p2 */
+  display: block;
+  width: 400px;
+  margin: 30px auto;
+  font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+/* For h3 spacing on Bio page: */
 .single-indent {
     text-indent: 90px
 }
@@ -84,7 +85,7 @@ li a:hover {
   background-color: #1e8d83; /*teal*/
 }
 
-/* 3 Column Structure: */
+/*** 3 Column Structure: ***/
 
 /* Create three equal columns that floats next to each other */
 .column {
