@@ -42,7 +42,7 @@ p2 { /* previously p2 */
   font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-p3 {  /* previously p3 */
+h3 {  /* previously p3 */
     display: block;
     width: 400px;
     margin: 30px auto;
