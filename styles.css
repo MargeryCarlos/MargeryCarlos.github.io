@@ -28,33 +28,33 @@ h1 {
     font-weight: bolder;
 }
 
-p {
+p { /* previously p */
   display: block;
   width: 400px;
   margin: 30px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-p2 {
+p2 { /* previously p2 */
   display: block;
   width: 400px;
   margin: 30px auto;
   font: 20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-p3 {
+p3 {  /* previously p3 */
     display: block;
     width: 400px;
     margin: 30px auto;
-    font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    font: 25px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
     font-style: italic;
 }
 
 .single-indent {
-    text-indent: 80px
+    text-indent: 90px
 }
 .double-indent {
-    text-indent: 160px;
+    text-indent: 180px;
 }
 
 /* Nav Bar: */
