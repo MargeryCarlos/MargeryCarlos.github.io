@@ -116,8 +116,8 @@ p {
 
 .homePics img {
     /*padding: 10px;
-    float: center;
-    cursor: pointer;*/
+    float: center;*/
+    cursor: pointer;
     height: 270px;
 }
 
